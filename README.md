@@ -1,4 +1,4 @@
-# Distributed Systems — Spring 2025 (University of Tehran)
+# Distributed Systems - Spring 2025 (University of Tehran)
 
 This repository contains my solutions and working code for distributed systems labs, adapted from the MIT 6.5840 (2025) lab framework. The repo is organized into three project folders that mirror the 6.5840 lab structure (MapReduce, Raft, Key/Value service, and Sharded KV).
 
@@ -34,7 +34,7 @@ Each `src/` directory is a Go module with path `6.5840`, so run `go` commands fr
 
 ## What each project builds (big picture)
 
-Here’s a high-level tour of the tasks and what you’ll implement/verify:
+Here's a high-level tour of the tasks and what you'll implement/verify:
 
 - MapReduce framework (MR)
 	- Build a simplified MapReduce system with a coordinator and workers.
@@ -159,7 +159,7 @@ go test ./shardkv1 -run 5C -count=1
 
 ## How to run tests (Project2 and Project3)
 
-`Project2/6.5840/src` and `Project3/6.5840/src` are separate Go modules mirroring the same package layout. Run commands from within each module’s `src` directory, e.g.:
+`Project2/6.5840/src` and `Project3/6.5840/src` are separate Go modules mirroring the same package layout. Run commands from within each module's `src` directory, e.g.:
 
 ```powershell
 # Project2 examples
@@ -229,3 +229,4 @@ This coursework builds on the MIT 6.5840 labs (2025 edition). Files, structure, 
 ## License
 
 See `Project1/LICENSE` for the original lab license. Any additional code by me is provided under the same license unless stated otherwise.
+
